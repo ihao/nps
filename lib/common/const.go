@@ -24,7 +24,7 @@ const (
 	CONN_UDP          = "udp"
 	UnauthorizedBytes = `HTTP/1.1 401 Unauthorized
 Content-Type: text/plain; charset=utf-8
-WWW-Authenticate: Basic realm="easyProxy"
+WWW-Authenticate: Basic realm="nps"
 
 401 Unauthorized`
 	ConnectionFailBytes = `HTTP/1.1 404 Not Found
